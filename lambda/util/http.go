@@ -1,17 +1,17 @@
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
-package main
+package util
 
 import (
 	"net/http"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
 	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapidcore"
+	log "github.com/sirupsen/logrus"
 )
 
-func startHTTPServer(ipport string, sandbox *rapidcore.SandboxBuilder, bs interop.Bootstrap) {
+func StartHTTPServer(ipport string, sandbox *rapidcore.SandboxBuilder, bs interop.Bootstrap) {
 	srv := &http.Server{
 		Addr: ipport,
 	}

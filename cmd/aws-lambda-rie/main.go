@@ -13,6 +13,7 @@ import (
 	"github.com/jessevdk/go-flags"
 	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
 	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapidcore"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/util"
 
 	log "github.com/sirupsen/logrus"
 )
@@ -84,7 +85,7 @@ func main() {
 	sandbox.DefaultInteropServer().SetSandboxContext(sandboxContext)
 	sandbox.DefaultInteropServer().SetInternalStateGetter(internalStateFn)
 
-	startHTTPServer(opts.RuntimeInterfaceEmulatorAddress, sandbox, bootstrap)
+	util.StartHTTPServer(opts.RuntimeInterfaceEmulatorAddress, sandbox, bootstrap)
 }
 
 func getCLIArgs() (options, []string) {
@@ -150,5 +151,5 @@ func getBootstrap(args []string, opts options) (interop.Bootstrap, string) {
 		log.Panic("insufficient arguments: bootstrap not provided")
 	}
 
-	return NewSimpleBootstrap(bootstrapLookupCmd, currentWorkingDir), handler
+	return util.NewSimpleBootstrap(bootstrapLookupCmd, currentWorkingDir), handler
 }
