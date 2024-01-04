@@ -14,10 +14,10 @@ import (
 	"strings"
 	"time"
 
-	"go.amzn.com/lambda/core/statejson"
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/rapidcore"
-	"go.amzn.com/lambda/rapidcore/env"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core/statejson"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapidcore"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapidcore/env"
 
 	"github.com/google/uuid"
 

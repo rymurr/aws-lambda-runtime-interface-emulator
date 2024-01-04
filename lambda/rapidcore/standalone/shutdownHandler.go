@@ -7,8 +7,8 @@ import (
 	"context"
 	"net/http"
 
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/metering"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/metering"
 )
 
 type shutdownAPIRequest struct {

@@ -15,15 +15,15 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
-	"go.amzn.com/lambda/appctx"
-	"go.amzn.com/lambda/core"
-	"go.amzn.com/lambda/extensions"
-	"go.amzn.com/lambda/fatalerror"
-	"go.amzn.com/lambda/rapi/handler"
-	"go.amzn.com/lambda/rapi/model"
-	"go.amzn.com/lambda/rapi/rendering"
-	"go.amzn.com/lambda/telemetry"
-	"go.amzn.com/lambda/testdata"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/appctx"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/extensions"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/fatalerror"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/handler"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/model"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/rendering"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/telemetry"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/testdata"
 )
 
 func FuzzAgentRegisterHandler(f *testing.F) {

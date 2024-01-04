@@ -6,7 +6,7 @@ package directinvoke
 import (
 	"context"
 	"errors"
-	"go.amzn.com/lambda/core/bandwidthlimiter"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core/bandwidthlimiter"
 	"io"
 	"net/http"
 	"time"

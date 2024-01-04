@@ -20,9 +20,9 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.amzn.com/lambda/fatalerror"
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/metering"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/fatalerror"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/metering"
 )
 
 func NewResponseWriterWithoutFlushMethod() *ResponseWriterWithoutFlushMethod {

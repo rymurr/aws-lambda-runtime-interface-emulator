@@ -6,7 +6,7 @@ package bandwidthlimiter
 import (
 	"io"
 
-	"go.amzn.com/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
 )
 
 func BandwidthLimitingCopy(dst *BandwidthLimitingWriter, src io.Reader) (written int64, err error) {

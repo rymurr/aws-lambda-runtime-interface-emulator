@@ -8,9 +8,9 @@ import (
 	"os"
 	"sync"
 
-	"go.amzn.com/lambda/appctx"
-	"go.amzn.com/lambda/core/statejson"
-	"go.amzn.com/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/appctx"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core/statejson"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
 
 	"github.com/google/uuid"
 

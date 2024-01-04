@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.amzn.com/lambda/testdata"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/testdata"
 )
 
 // Verify that state machine will accept response and error with valid invoke id

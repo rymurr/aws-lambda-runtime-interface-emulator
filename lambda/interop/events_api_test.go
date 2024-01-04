@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.amzn.com/lambda/rapi/model"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/model"
 )
 
 const requestID RequestID = "REQUEST_ID"

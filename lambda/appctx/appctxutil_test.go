@@ -10,9 +10,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.amzn.com/lambda/fatalerror"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/fatalerror"
 
-	"go.amzn.com/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
 )
 
 func runTestRequestWithUserAgent(t *testing.T, userAgent string, expectedRuntimeRelease string) {

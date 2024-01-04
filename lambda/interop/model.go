@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"go.amzn.com/lambda/core/statejson"
-	"go.amzn.com/lambda/fatalerror"
-	"go.amzn.com/lambda/supervisor/model"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core/statejson"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/fatalerror"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/supervisor/model"
 
 	log "github.com/sirupsen/logrus"
 )

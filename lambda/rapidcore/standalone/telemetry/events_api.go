@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/telemetry"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/telemetry"
 )
 
 type EventType = string

@@ -7,7 +7,7 @@ import (
 	"io"
 	"net/http"
 
-	"go.amzn.com/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
 )
 
 // SubscriptionAPI represents interface that implementations of Telemetry API have to satisfy to be RAPID-compatible

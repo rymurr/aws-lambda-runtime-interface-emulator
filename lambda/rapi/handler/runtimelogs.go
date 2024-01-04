@@ -11,9 +11,9 @@ import (
 	"net/http"
 	"strings"
 
-	"go.amzn.com/lambda/core"
-	"go.amzn.com/lambda/rapi/rendering"
-	"go.amzn.com/lambda/telemetry"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/rendering"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/telemetry"
 
 	"github.com/google/uuid"
 	log "github.com/sirupsen/logrus"

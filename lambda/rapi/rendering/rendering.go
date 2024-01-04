@@ -14,9 +14,9 @@ import (
 	"sync"
 	"time"
 
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/metering"
-	"go.amzn.com/lambda/rapi/model"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/metering"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/model"
 
 	"github.com/google/uuid"
 	log "github.com/sirupsen/logrus"

@@ -6,15 +6,15 @@ package rapi
 import (
 	"net/http"
 
-	"go.amzn.com/lambda/appctx"
-	"go.amzn.com/lambda/rapi/handler"
-	"go.amzn.com/lambda/rapi/middleware"
-	"go.amzn.com/lambda/telemetry"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/appctx"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/handler"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/middleware"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/telemetry"
 
 	"github.com/go-chi/chi"
 
-	"go.amzn.com/lambda/core"
-	"go.amzn.com/lambda/rapi/rendering"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/rendering"
 )
 
 // NewRouter returns a new instance of chi router implementing

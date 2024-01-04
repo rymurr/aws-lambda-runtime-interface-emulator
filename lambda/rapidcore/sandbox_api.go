@@ -6,8 +6,8 @@ package rapidcore
 import (
 	"bytes"
 
-	"go.amzn.com/lambda/extensions"
-	"go.amzn.com/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/extensions"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
 )
 
 // SandboxContext and other structs form the implementation of the SandboxAPI

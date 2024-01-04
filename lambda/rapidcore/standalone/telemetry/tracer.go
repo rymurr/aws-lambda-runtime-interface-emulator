@@ -9,11 +9,11 @@ import (
 	"fmt"
 	"time"
 
-	"go.amzn.com/lambda/appctx"
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/metering"
-	"go.amzn.com/lambda/rapi/model"
-	"go.amzn.com/lambda/telemetry"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/appctx"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/metering"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/model"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/telemetry"
 
 	"github.com/sirupsen/logrus"
 )

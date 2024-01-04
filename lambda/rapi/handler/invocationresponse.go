@@ -6,11 +6,11 @@ package handler
 import (
 	"net/http"
 
-	"go.amzn.com/lambda/appctx"
-	"go.amzn.com/lambda/core"
-	"go.amzn.com/lambda/fatalerror"
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/rapi/rendering"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/appctx"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/fatalerror"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/rendering"
 
 	"github.com/go-chi/chi"
 	log "github.com/sirupsen/logrus"

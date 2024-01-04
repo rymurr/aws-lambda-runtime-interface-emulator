@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"go.amzn.com/lambda/core/statejson"
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/rapidcore/env"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core/statejson"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapidcore/env"
 )
 
 func waitForChanWithTimeout(channel <-chan error, timeout time.Duration) error {

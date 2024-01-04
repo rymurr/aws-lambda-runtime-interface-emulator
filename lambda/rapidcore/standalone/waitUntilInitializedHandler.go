@@ -6,7 +6,7 @@ package standalone
 import (
 	"net/http"
 
-	"go.amzn.com/lambda/rapidcore"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapidcore"
 )
 
 func WaitUntilInitializedHandler(w http.ResponseWriter, r *http.Request, s InteropServer) {

@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"go.amzn.com/lambda/appctx"
-	"go.amzn.com/lambda/testdata"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/appctx"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/testdata"
 )
 
 const InitCachingToken = "sampleInitCachingToken"

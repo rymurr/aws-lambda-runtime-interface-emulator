@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go.amzn.com/lambda/rapidcore/env"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapidcore/env"
 
 	"github.com/stretchr/testify/assert"
 )

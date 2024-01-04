@@ -14,9 +14,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"go.amzn.com/lambda/core"
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/telemetry"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/telemetry"
 
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"

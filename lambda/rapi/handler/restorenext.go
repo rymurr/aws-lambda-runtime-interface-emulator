@@ -7,8 +7,8 @@ import (
 	"net/http"
 
 	log "github.com/sirupsen/logrus"
-	"go.amzn.com/lambda/core"
-	"go.amzn.com/lambda/rapi/rendering"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/rendering"
 )
 
 type restoreNextHandler struct {

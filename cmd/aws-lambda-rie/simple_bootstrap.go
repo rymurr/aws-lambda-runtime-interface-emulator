@@ -8,9 +8,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"go.amzn.com/lambda/fatalerror"
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/rapidcore/env"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/fatalerror"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapidcore/env"
 )
 
 // the type implement a simpler version of the Bootstrap

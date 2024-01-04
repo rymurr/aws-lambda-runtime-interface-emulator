@@ -14,7 +14,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.amzn.com/lambda/supervisor/model"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/supervisor/model"
 )
 
 func TestRuntimeDomainExec(t *testing.T) {

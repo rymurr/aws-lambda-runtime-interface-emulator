@@ -16,10 +16,10 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/rapi/model"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/model"
 
-	"go.amzn.com/lambda/testdata"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/testdata"
 )
 
 func createInvoke(id string) *interop.Invoke {

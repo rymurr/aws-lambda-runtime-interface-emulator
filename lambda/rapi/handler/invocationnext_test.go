@@ -22,11 +22,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.amzn.com/lambda/appctx"
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/metering"
-	"go.amzn.com/lambda/telemetry"
-	"go.amzn.com/lambda/testdata"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/appctx"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/metering"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/telemetry"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/testdata"
 )
 
 // TestRenderInvokeEmptyHeaders tests that headers

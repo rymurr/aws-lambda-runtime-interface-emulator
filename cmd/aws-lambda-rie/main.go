@@ -11,8 +11,8 @@ import (
 	"runtime/debug"
 
 	"github.com/jessevdk/go-flags"
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/rapidcore"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapidcore"
 
 	log "github.com/sirupsen/logrus"
 )

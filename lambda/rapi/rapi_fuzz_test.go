@@ -21,12 +21,12 @@ import (
 	"unicode"
 
 	"github.com/stretchr/testify/assert"
-	"go.amzn.com/lambda/appctx"
-	"go.amzn.com/lambda/extensions"
-	"go.amzn.com/lambda/fatalerror"
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/telemetry"
-	"go.amzn.com/lambda/testdata"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/appctx"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/extensions"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/fatalerror"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/telemetry"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/testdata"
 )
 
 type runtimeFunctionErrStruct struct {

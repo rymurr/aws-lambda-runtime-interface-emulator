@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"go.amzn.com/lambda/testdata"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/testdata"
 
 	"github.com/stretchr/testify/assert"
 )

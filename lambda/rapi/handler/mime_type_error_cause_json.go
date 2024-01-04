@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go.amzn.com/lambda/rapi/model"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/model"
 
 	log "github.com/sirupsen/logrus"
 )

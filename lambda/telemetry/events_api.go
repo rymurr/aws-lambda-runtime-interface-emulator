@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/metering"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/metering"
 )
 
 func GetRuntimeDoneInvokeMetrics(runtimeStartedTime int64, invokeResponseMetrics *interop.InvokeResponseMetrics, runtimeDoneTime int64) *interop.RuntimeDoneInvokeMetrics {

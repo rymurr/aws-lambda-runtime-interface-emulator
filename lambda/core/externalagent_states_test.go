@@ -6,7 +6,7 @@ package core
 import (
 	"errors"
 	"github.com/stretchr/testify/require"
-	"go.amzn.com/lambda/testdata/mockthread"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/testdata/mockthread"
 	"testing"
 )
 

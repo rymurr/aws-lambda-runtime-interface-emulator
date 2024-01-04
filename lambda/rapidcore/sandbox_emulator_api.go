@@ -4,7 +4,7 @@
 package rapidcore
 
 import (
-	"go.amzn.com/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
 
 	"net/http"
 )

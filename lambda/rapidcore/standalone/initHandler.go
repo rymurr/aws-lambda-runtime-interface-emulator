@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/rapidcore/env"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapidcore/env"
 )
 
 type RuntimeInfo struct {

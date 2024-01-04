@@ -14,7 +14,7 @@ import (
 	"time"
 
 	log "github.com/sirupsen/logrus"
-	"go.amzn.com/lambda/supervisor/model"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/supervisor/model"
 )
 
 // typecheck interface compliance

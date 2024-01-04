@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"go.amzn.com/lambda/rapi/model"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/model"
 )
 
 var BigString = strings.Repeat("a", 255)

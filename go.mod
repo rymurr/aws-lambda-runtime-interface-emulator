@@ -1,4 +1,4 @@
-module go.amzn.com
+module github.com/rymurr/aws-lambda-runtime-interface-emulator
 
 go 1.20
 

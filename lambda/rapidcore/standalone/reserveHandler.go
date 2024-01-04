@@ -7,9 +7,9 @@ import (
 	"net/http"
 
 	log "github.com/sirupsen/logrus"
-	"go.amzn.com/lambda/core/directinvoke"
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/rapidcore"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core/directinvoke"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapidcore"
 )
 
 const (

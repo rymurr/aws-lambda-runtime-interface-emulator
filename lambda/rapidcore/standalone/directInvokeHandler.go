@@ -4,12 +4,12 @@
 package standalone
 
 import (
-	"go.amzn.com/lambda/rapidcore"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapidcore"
 
 	"net/http"
 
 	log "github.com/sirupsen/logrus"
-	"go.amzn.com/lambda/core/directinvoke"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core/directinvoke"
 )
 
 func DirectInvokeHandler(w http.ResponseWriter, r *http.Request, s InteropServer) {

@@ -8,12 +8,12 @@ import (
 	"net/http"
 
 	"github.com/google/uuid"
-	"go.amzn.com/lambda/extensions"
-	"go.amzn.com/lambda/rapi/handler"
-	"go.amzn.com/lambda/rapi/rendering"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/extensions"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/handler"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/rendering"
 
 	"github.com/go-chi/chi"
-	"go.amzn.com/lambda/appctx"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/appctx"
 
 	log "github.com/sirupsen/logrus"
 )

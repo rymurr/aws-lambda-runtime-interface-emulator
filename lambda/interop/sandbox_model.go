@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"time"
 
-	"go.amzn.com/lambda/fatalerror"
-	"go.amzn.com/lambda/rapidcore/env"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/fatalerror"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapidcore/env"
 )
 
 // Init represents an init message

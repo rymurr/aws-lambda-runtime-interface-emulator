@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"go.amzn.com/lambda/core/statejson"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core/statejson"
 
 	"github.com/google/uuid"
 )

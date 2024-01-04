@@ -12,8 +12,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/metering"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/metering"
 )
 
 var ErrBufferSizeTooLarge = errors.New("buffer size cannot be greater than bucket size")

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"testing"
 
-	"go.amzn.com/lambda/fatalerror"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/fatalerror"
 
 	"github.com/stretchr/testify/assert"
 )

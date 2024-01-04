@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"go.amzn.com/lambda/rapidcore/standalone/telemetry"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapidcore/standalone/telemetry"
 )
 
 func EventLogHandler(w http.ResponseWriter, r *http.Request, eventsAPI *telemetry.StandaloneEventsAPI) {

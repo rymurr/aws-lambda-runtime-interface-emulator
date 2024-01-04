@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/testdata/mockthread"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/testdata/mockthread"
 )
 
 func TestRuntimeInitErrorAfterReady(t *testing.T) {

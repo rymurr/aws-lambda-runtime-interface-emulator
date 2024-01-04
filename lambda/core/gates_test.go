@@ -82,7 +82,7 @@ func BenchmarkAwaitGateCondition(b *testing.B) {
 	}
 }
 
-// go test -run=XXX -bench=. -benchtime 10000000x -cpu 1 -blockprofile /tmp/pprof/block3.out src/go.amzn.com/lambda/core/*
+// go test -run=XXX -bench=. -benchtime 10000000x -cpu 1 -blockprofile /tmp/pprof/block3.out src/github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core/*
 // goos: linux
 // goarch: amd64
 // BenchmarkAwaitGateCondition 	10000000	      1834 ns/op

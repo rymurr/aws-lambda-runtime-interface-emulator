@@ -7,9 +7,9 @@ import (
 	"net/http"
 
 	log "github.com/sirupsen/logrus"
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/metering"
-	"go.amzn.com/lambda/rapidcore"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/metering"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapidcore"
 )
 
 func Execute(w http.ResponseWriter, r *http.Request, sandbox rapidcore.LambdaInvokeAPI) {

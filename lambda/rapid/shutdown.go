@@ -11,12 +11,12 @@ import (
 	"sync"
 	"time"
 
-	"go.amzn.com/lambda/appctx"
-	"go.amzn.com/lambda/core"
-	"go.amzn.com/lambda/metering"
-	"go.amzn.com/lambda/rapi/model"
-	"go.amzn.com/lambda/rapi/rendering"
-	supvmodel "go.amzn.com/lambda/supervisor/model"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/appctx"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/metering"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/model"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/rendering"
+	supvmodel "github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/supervisor/model"
 
 	log "github.com/sirupsen/logrus"
 )

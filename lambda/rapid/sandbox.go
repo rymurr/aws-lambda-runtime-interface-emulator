@@ -10,13 +10,13 @@ import (
 	"io"
 	"sync"
 
-	"go.amzn.com/lambda/appctx"
-	"go.amzn.com/lambda/core"
-	"go.amzn.com/lambda/interop"
-	"go.amzn.com/lambda/rapi"
-	"go.amzn.com/lambda/rapi/rendering"
-	supvmodel "go.amzn.com/lambda/supervisor/model"
-	"go.amzn.com/lambda/telemetry"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/appctx"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/interop"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/rendering"
+	supvmodel "github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/supervisor/model"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/telemetry"
 )
 
 type Sandbox struct {

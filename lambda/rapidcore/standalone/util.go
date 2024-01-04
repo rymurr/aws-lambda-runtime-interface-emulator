@@ -10,7 +10,7 @@ import (
 	"net/http"
 
 	log "github.com/sirupsen/logrus"
-	"go.amzn.com/lambda/rapi/model"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/model"
 )
 
 const (

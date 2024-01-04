@@ -10,7 +10,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"go.amzn.com/lambda/core"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core"
 )
 
 type credentialsHandler struct {

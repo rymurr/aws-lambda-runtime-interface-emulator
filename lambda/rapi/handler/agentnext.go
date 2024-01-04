@@ -8,8 +8,8 @@ import (
 
 	"github.com/google/uuid"
 	log "github.com/sirupsen/logrus"
-	"go.amzn.com/lambda/core"
-	"go.amzn.com/lambda/rapi/rendering"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/core"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/rapi/rendering"
 )
 
 // A CtxKey type is used as a key for storing values in the request context.

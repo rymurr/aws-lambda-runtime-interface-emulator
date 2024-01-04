@@ -7,7 +7,7 @@ import (
 	"context"
 	"time"
 
-	"go.amzn.com/lambda/xray"
+	"github.com/rymurr/aws-lambda-runtime-interface-emulator/lambda/xray"
 )
 
 // MockStartTime is start time set in Start method
